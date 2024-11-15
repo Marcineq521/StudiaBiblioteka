@@ -6,8 +6,6 @@ public class Main{
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
 
-        Student marcin=new Student(1,"Baran","Marcin");
-        Student bartek=new Student(2,"Janek","bartek");
         LibraryApp library=new LibraryApp("MyLibrary");
 
         boolean flag=true;
@@ -38,12 +36,6 @@ public class Main{
                     break;
             }
         }
-     //   choice=s.nextInt();
-
-
-
-
-
 
     }
     private static void printActions(){
